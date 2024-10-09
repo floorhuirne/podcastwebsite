@@ -1,0 +1,239 @@
+/* header opmaak */
+header {
+    background-color: #B8E3E9;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 9vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 0.2em;
+
+}
+
+header img {
+    max-width: 10em;
+}
+
+header nav ul {
+    display: flex;
+    list-style-type: none;
+}
+
+header nav li {
+    width: 7em;
+    margin-right: 0.5em;
+    padding: 0.5em;
+    font-size: 1.2em;
+    transition: all 350ms ease;
+}
+
+header nav li:hover {
+    transform: scale(1.2);
+}
+
+header nav li a {
+    text-decoration: none;
+    color: #037F8C;
+}
+
+/* footer opmaak */
+
+footer {
+    background-color: #B8E3E9;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 11vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 0.2em;
+}
+
+footer nav li a {
+    text-decoration: none;
+    color: #037F8C;
+}
+
+footer nav li {
+    display: flex;
+    list-style-type: none;
+    font-size: 0.7em;
+    padding: 0.2em;
+    transition: all 350ms ease;
+}
+
+footer nav li:hover {
+    text-decoration: underline;
+
+}
+
+footer div a {
+    background-color: #154f2d;
+    color: white;
+    padding: 0.5em;
+    text-decoration: none;
+    border-radius: 0.2em;
+    transition: all 350ms ease;
+}
+
+footer div a:hover {
+    background-color: #80a6ab;
+    color: white;
+}
+
+/* algemene opmaak */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.5em;
+    background-color: #fefefe;
+
+}
+
+h1 {
+    font-size: 5em;
+    line-height: 1em;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+h1,
+h2,
+h3 {
+    color: #2b636b;
+}
+
+main section img {
+    height: 20em;
+}
+
+p {
+    color: #555;
+}
+
+/* teaservideo */
+div iframe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2em;
+}
+
+iframe {
+    width: 100%;
+    max-width: 35em;
+    height: 25em;
+}
+
+section {
+    background-color: #deeaec;
+    padding: 1em;
+    margin: 2em;
+    border-radius: 0.2em;
+    border: 0.1em solid rgb(172, 167, 167);
+
+}
+
+section article {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1.5em;
+}
+
+
+section article div {
+    display: flex;
+    flex-direction: column;
+    margin-right: 1em;
+}
+
+
+section article img {
+    max-width: 10em;
+    height: auto;
+}
+
+.producten a {
+    background-color: #2b636b;
+    color: white;
+    padding: 1em;
+    text-decoration: none;
+    border-radius: 0.2em;
+    transition: all 350ms ease;
+}
+
+section article div a:hover {
+    background-color: #80a6ab;
+    color: white;
+}
+
+/* nieuwsbrief */
+.nieuwsletter {
+    background-color: #2b636b;
+    padding: 2em;
+    text-align: center;
+    margin: 2em;
+    border: 0.1em solid rgb(0, 0, 0);
+}
+
+.nieuwsletter h2 {
+    color: white;
+}
+
+.nieuwsletter input[type="email"] {
+    padding: 0.5em;
+    margin: 0.5em 0;
+    width: 100%;
+    max-width: 20em;
+    background-color: white;
+}
+
+.nieuwsletter a {
+    background-color: white;
+    color: #2b636b;
+    padding: 0.3em;
+    text-decoration: none;
+    transition: all 350ms ease;
+}
+
+.nieuwsletter a:hover {
+    background-color: #80a6ab;
+    color: white;
+}
+
+.aflevering {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: left;
+    gap: 2em;
+    background-color: #f9f9f9;
+    padding: 1.5em;
+    border: 0.1em solid white;
+    border-radius: 0.5em;
+    margin-bottom: 2em;
+}
+
+.aflevering img {
+    max-width: 17em;
+    height: auto;
+}
+
+.aflevering p {
+    color: #555;
+    max-width: 20em;
+}
+
+/* spotify linkje */
+section article div a {
+    background-color: #154f2d;
+    color: white;
+    padding: 0.5em;
+    text-decoration: none;
+    border-radius: 0.2em;
+    transition: all 350ms ease;
+}
+
+section article div a:hover {
+    background-color: #209e54;
+}
